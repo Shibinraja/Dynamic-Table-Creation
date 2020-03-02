@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Table</title>
+    <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <style>
+        .container table{
+            margin: 1em 10em;
+        }
+
+        .table {
+        width: 50%;
+        margin-left:25%
+        }
+        .add{
+            margin-left:20%;
+            margin-bottom:-164px;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" class="btn btn-success add" id = "btn-add">Add</button>
+    <div class="container-fluid">
+    <table class="table table-bordered my-5">
+  <thead>
+    <tr>
+      <th scope="col my-5">S.No</th>
+      <th scope="col" style ="width: 50%;">Action</th>
+    </tr>
+  </thead>
+  <tbody id="tb">
+      <tr id="1">
+        <th scope="row">1</th>
+        <td><button type="button" class="btn btn-danger" onclick = "deleted(this,'1')">Delete</button></td>
+      </tr>
+      <tr id="2">
+        <th scope="row">2</th>
+        <td><button type="button" class="btn btn-danger" onclick = "deleted(this,'2')">Delete</button></td>
+      </tr>
+</tbody>
+</table>
+</div>
+
+<script type="text/javascript" src="./Table.js"></script>
+</body>
+</html>
