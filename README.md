@@ -1,2 +1,2 @@
 # Dynamic-Table-Creation
-Add/ Remove Table Dynamically using JS.
+Add/ Remove Table Row Dynamically using JS.
